@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zEmi+VUtPnWIBCj69Fs0KbT0yA7PtjeeEbD4gGFX8uAB+khaBuxTjz2OypcX8k9ZmG2MrEfeV73v4GDgvNEfFw==",
+  "dgSpecHash": "UmQ7jQuyetgq+DjEHFLgZjTla/JY1HyZO0XrlXInXFn51+KG3Jw+cKaRuGtkl2vPbLS9EhrIO+cbhaAJpPGvYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\scrib\\source\\repos\\ASP.NET_Core_5.0_kurators\\OnlineShop\\OnlineShop.Db\\OnlineShop.Db.csproj",
+  "projectFilePath": "C:\\Users\\scrib\\Source\\Repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\OnlineShop.Db.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\scrib\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\scrib\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
