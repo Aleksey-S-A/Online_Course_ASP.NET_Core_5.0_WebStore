@@ -11,7 +11,7 @@
         "projectName": "OnlineShop.Db",
         "projectPath": "C:\\Users\\scrib\\source\\repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\OnlineShop.Db.csproj",
         "packagesPath": "C:\\Users\\scrib\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\scrib\\Source\\Repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\obj\\",
+        "outputPath": "C:\\Users\\scrib\\source\\repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
