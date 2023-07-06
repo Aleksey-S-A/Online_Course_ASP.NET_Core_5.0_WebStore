@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\scrib\\source\\repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShopWebApp\\OnlineShopWebApp.csproj": {}
+    "C:\\Users\\scrib\\Source\\Repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShopWebApp\\OnlineShopWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\scrib\\source\\repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\OnlineShop.Db.csproj": {
+    "C:\\Users\\scrib\\Source\\Repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\OnlineShop.Db.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\scrib\\source\\repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\OnlineShop.Db.csproj",
+        "projectUniqueName": "C:\\Users\\scrib\\Source\\Repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\OnlineShop.Db.csproj",
         "projectName": "OnlineShop.Db",
-        "projectPath": "C:\\Users\\scrib\\source\\repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\OnlineShop.Db.csproj",
+        "projectPath": "C:\\Users\\scrib\\Source\\Repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\OnlineShop.Db.csproj",
         "packagesPath": "C:\\Users\\scrib\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\scrib\\Source\\Repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\obj\\",
         "projectStyle": "PackageReference",
@@ -91,12 +91,12 @@
         }
       }
     },
-    "C:\\Users\\scrib\\source\\repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShopWebApp\\OnlineShopWebApp.csproj": {
+    "C:\\Users\\scrib\\Source\\Repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShopWebApp\\OnlineShopWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\scrib\\source\\repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShopWebApp\\OnlineShopWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\scrib\\Source\\Repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShopWebApp\\OnlineShopWebApp.csproj",
         "projectName": "OnlineShopWebApp",
-        "projectPath": "C:\\Users\\scrib\\source\\repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShopWebApp\\OnlineShopWebApp.csproj",
+        "projectPath": "C:\\Users\\scrib\\Source\\Repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShopWebApp\\OnlineShopWebApp.csproj",
         "packagesPath": "C:\\Users\\scrib\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\scrib\\source\\repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShopWebApp\\obj\\",
         "projectStyle": "PackageReference",
@@ -119,8 +119,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\scrib\\source\\repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\OnlineShop.Db.csproj": {
-                "projectPath": "C:\\Users\\scrib\\source\\repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\OnlineShop.Db.csproj"
+              "C:\\Users\\scrib\\Source\\Repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\OnlineShop.Db.csproj": {
+                "projectPath": "C:\\Users\\scrib\\Source\\Repos\\Online_Course_ASP.NET_Core_5.0_WebStore\\OnlineShop\\OnlineShop.Db\\OnlineShop.Db.csproj"
               }
             }
           }
