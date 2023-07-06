@@ -1,0 +1,13 @@
+C:\Users\scrib\source\repos\ASP.NET_Core_5.0_kurators\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.deps.json
+C:\Users\scrib\source\repos\ASP.NET_Core_5.0_kurators\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.runtimeconfig.json
+C:\Users\scrib\source\repos\ASP.NET_Core_5.0_kurators\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.runtimeconfig.dev.json
+C:\Users\scrib\source\repos\ASP.NET_Core_5.0_kurators\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.dll
+C:\Users\scrib\source\repos\ASP.NET_Core_5.0_kurators\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.pdb
+C:\Users\scrib\source\repos\ASP.NET_Core_5.0_kurators\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.csproj.AssemblyReference.cache
+C:\Users\scrib\source\repos\ASP.NET_Core_5.0_kurators\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scrib\source\repos\ASP.NET_Core_5.0_kurators\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.AssemblyInfoInputs.cache
+C:\Users\scrib\source\repos\ASP.NET_Core_5.0_kurators\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.AssemblyInfo.cs
+C:\Users\scrib\source\repos\ASP.NET_Core_5.0_kurators\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.csproj.CoreCompileInputs.cache
+C:\Users\scrib\source\repos\ASP.NET_Core_5.0_kurators\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.dll
+C:\Users\scrib\source\repos\ASP.NET_Core_5.0_kurators\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.pdb
+C:\Users\scrib\source\repos\ASP.NET_Core_5.0_kurators\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.genruntimeconfig.cache

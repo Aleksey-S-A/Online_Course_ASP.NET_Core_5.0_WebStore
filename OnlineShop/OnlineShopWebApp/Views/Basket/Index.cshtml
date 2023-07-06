@@ -1,0 +1,57 @@
+﻿@model CartViewModel;
+
+@if (Model == null || Model.Cost == 0)
+{
+    <h1>Корзина пустая</h1>
+    <div class="row">
+        <div class="col">
+            <a class="btn btn-dark" href="/home/index" role="button">Продолжить покупки</a>
+        </div>
+    </div>
+}
+
+else
+{
+    <div class="row">
+        <div class="col">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Наименование</th>
+                        <th>Цена за ед.</th>
+                        <th>Количество</th>
+                        <th>Стоимость</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var items in Model.Items)
+                    {
+                        <tr>
+                            <th>@items.Product.Name</th>
+                            <th>@items.Product.Cost руб.</th>
+                            <th>
+                                <a class="btn btn-dark" href="/basket/Add?productId=@items.Product.Id" role="button">+</a>
+                                @items.Amount шт.
+                                <a class="btn btn-dark" href="/basket/Removal?productId=@items.Product.Id" role="button">-</a>
+                            </th>
+                            <th>@items.Cost</th>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div>
+                <h3>Итого: @Model.Cost</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <a class="btn btn-dark" href="/home/index" role="button">Продолжить покупки</a>
+            <a class="btn btn-dark" href="/order/index" role="button">Оформить заказ</a>
+            <a class="btn btn-dark" href="/basket/Clear" role="button">Очистить корзину</a>
+        </div>
+    </div>
+}
+
+
+

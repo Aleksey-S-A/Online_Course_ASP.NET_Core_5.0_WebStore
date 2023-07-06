@@ -1,0 +1,40 @@
+﻿@model List<ProductViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-3 card shadow">
+            <img class="card-img-top" src="https://files-shop.nag.ru/files/new_shop/items/SNR-UPS-ONT-6000-INT/main/13306c3eb2a48fbd8046b499d4b7bd78.webp"></img>
+            <div class="card-body">
+                <a style="color:black" asp-area="" asp-controller="Product" asp-action="Index" asp-route-Id="@product.Id">
+                    <h5>@product.Name</h5>
+                </a>
+                <h5>@product.Cost руб.</h5>
+                <a class="btn btn-dark" asp-area="" asp-controller="Basket" asp-action="Add" asp-route-productId="@product.Id" role="button">Добавить в корзину</a>
+                <br />
+                <br />
+                <a class="btn btn-danger" asp-area="" asp-controller="Favorite" asp-action="Remove" asp-route-productId="@product.Id" role="button">Удалить из избранного</a>
+            </div>
+        </div>
+    }
+</div>
+<br />
+<br />
+@if (Model.Count != 0)
+{
+    <div>
+        <a class="btn btn-danger" asp-area="" asp-controller="Favorite" asp-action="Clear" asp-route-productId="" role="button">Удалить всё</a>
+    </div>
+}
+@if (Model.Count == 0)
+{
+<h1>Избранные товары отсутствуют</h1>
+<div class="row">
+    <div class="col">
+        <a class="btn btn-dark" href="/home/index" role="button">Вернуться на главную страницу</a>
+    </div>
+</div>
+}

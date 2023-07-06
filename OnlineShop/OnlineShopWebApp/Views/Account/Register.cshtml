@@ -1,0 +1,55 @@
+﻿@model Register
+
+<div class="row text-center">
+    <div class="col">
+        <h3>Регистрация нового пользователя</h3>
+    </div>
+</div>
+
+<form method="post">
+    <div class="row text-center">
+        <div class="col">
+            <type ="hidden" name="returnUrl" value="@Model.ReturnUrl" />
+            <div class="text-danger font-weight-bold" asp-validation-summary="All"></div>
+            <div class="col-12">
+                <label asp-for="UserName">Логин:</label>
+                <br>
+                <input type="text" asp-for="UserName">
+                <span asp-validation-for="UserName"></span>
+            </div>
+            <br>
+            <div class="col-12">
+                <label asp-for="Phone">Номер телефона:</label>
+                <br>
+                <input type="tel" asp-for="Phone" maxlength="12">
+                <span asp-validation-for="Phone"></span>
+            </div>
+            <br>
+            <div class="col-12">
+                <label asp-for="Mail">E-Mail:</label>
+                <br>
+                <input type="email" asp-for="Mail">
+                <span asp-validation-for="Mail"></span>
+            </div>
+            <br>
+            <div class="col-12">
+                <label asp-for="Password">Пароль:</label>
+                <br>
+                <input type="password" asp-for="Password">
+                <span asp-validation-for="Password"></span>
+            </div>
+            <br>
+            <div class="col-12">
+                <label asp-for="ConfirmPassword">Подтвердите пароль:</label>
+                <br>
+                <input type="password" asp-for="ConfirmPassword">
+                <span asp-validation-for="ConfirmPassword"></span>
+            </div>
+
+            <br>
+
+            <button class="btn btn-success" type="submit" asp-controller="Account" asp-action="Register" asp-route-ReturnUrl="@Model.ReturnUrl">Зарегистрироваться</button>
+
+        </div>
+    </div>
+</form>

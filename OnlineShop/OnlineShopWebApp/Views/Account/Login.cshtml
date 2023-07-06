@@ -1,0 +1,41 @@
+﻿@model Login
+
+<div class="row text-center">
+    <div class="col">
+        <h3>Вход</h3>
+    </div>
+</div>
+
+<form method="post">
+    <div class="row text-center">
+        <div class="col">
+            <type ="hidden" name="returnUrl" value="@Model.ReturnUrl" />
+            <div class="text-danger font-weight-bold" asp-validation-summary="All"></div>
+
+            <div class="col-12">
+                <label asp-for="UserName">Логин:</label>
+                <br>
+                <input type="text" asp-for="UserName">
+                <span asp-validation-for="UserName"></span>
+            </div>
+            <br>
+
+            <div class="col-12">
+                <label asp-for="Password">Пароль:</label>
+                <br>
+                <input type="password" asp-for="Password">
+                <span asp-validation-for="Password"></span>
+            </div>
+
+            <br>
+            <div>Запомнить меня? <input type="checkbox" name="RememberMe" value="true"></div>
+
+            <br>
+            <button class="btn btn-success" type="submit" asp-controller="Account" asp-action="Login" asp-route-ReturnUrl="@Model.ReturnUrl">Войти</button>
+
+            <br>
+            <br>
+            <a class="form-control" type="submit" asp-controller="Account" asp-action="Register" asp-route-ReturnUrl="@Model.ReturnUrl">Регистрация нового пользователя</a>
+        </div>
+    </div>
+</form>

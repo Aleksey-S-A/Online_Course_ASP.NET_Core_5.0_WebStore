@@ -1,0 +1,54 @@
+﻿@model List<RoleViewModel>
+
+<div class="row">
+
+    @await Html.PartialAsync("AdminLeftMenu")
+
+    @if (Model == null || Model.Count == 0)
+    {
+        <div class="col-9">
+            <h3>Роли отсутствуют</h3>
+            <div class="row">
+                <div class="col">
+                    <a a asp-area="Admin" asp-controller="Role" asp-action="Add">Добавить новую роль</a>
+                </div>
+            </div>
+        </div>
+    }
+
+    else
+    {
+        <div class="col-9">
+            <h3>Список ролей</h3>
+            <div class="row">
+                <br>
+                <br>
+                <div class="col">
+                    <a asp-area="Admin" asp-controller="Role" asp-action="Add">Добавить новую роль</a>
+                    <br>
+                    <br>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>№</th>
+                                <th>Название</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.Count; i++)
+                            {
+                                <tr>
+                                    <th>@(i + 1)</th>
+                                    <th>@Model[i].Name</th>
+                                    <th><a asp-area="Admin" asp-controller="Role" asp-action="Remove" asp-route-RoleName="@Model[i].Name" role="button">Удалить</a></th>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    }
+</div>
+

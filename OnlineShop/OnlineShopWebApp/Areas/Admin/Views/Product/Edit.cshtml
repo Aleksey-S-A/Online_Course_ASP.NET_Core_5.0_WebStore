@@ -1,0 +1,62 @@
+﻿@model EditProductViewModel
+
+<div class="row text-center">
+    <div class="col">
+        <h3>Редактирование продукта</h3>
+    </div>
+</div>
+
+<div class="validation" asp-validation-summary="All"></div>
+
+<form method="post" enctype="multipart/form-data">
+    <input type="hidden" name="Id" value="@Model?.Id" />
+    <div class="row text-center">
+        <div class="col">
+
+            <div class="col-12">
+                <label asp-for="Name">Наименование:</label>
+                <br>
+                <input type="text" asp-for="Name" value="@Model?.Name">
+                <span asp-validation-for="Name"></span>
+            </div>
+            <br>
+            <div class="col-12">
+                <label asp-for="Description">Описание:</label>
+                <br>
+                <input type="text" asp-for="Description" value="@Model?.Description">
+                <span asp-validation-for="Description"></span>
+            </div>
+            <br>
+            <div class="col-12">
+                <label asp-for="Cost">Стоимость:</label>
+                <br>
+                <input type="text" asp-for="Cost" value="@Model?.Cost" maxlength="7" oninput="this.value=this.value.slice(0,this.maxlength)">
+                <span asp-validation-for="Cost"></span>
+            </div>
+
+            <div class="col-12">
+
+                <input type="hidden" asp-for="@Model.ImagesPaths" value="@Model.ImagesPaths" />
+
+                <label>Изображение</label>
+                <br>
+                @foreach (var imagePath in Model.ImagesPaths)
+                {
+                    <div>
+                        <img src="@imagePath" width="150" height="150" />
+                    </div>
+                }
+            </div>
+            <div class="form-group">
+                <label>Загрузить новое изображение</label>
+                <input type="file" name="UploadedFiles" multiple accept="image/*" class="form-control">
+            </div>
+
+            <br>
+            <br>
+            <a>
+                <button class="btn btn-success type="submit" asp-area="Admin" asp-controller="Product" asp-action="Edit">Изменить</button>
+            </a>
+        </div>
+    </div>
+</form>

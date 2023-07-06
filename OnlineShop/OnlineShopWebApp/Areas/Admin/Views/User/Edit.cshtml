@@ -1,0 +1,44 @@
+﻿@model UserViewModel
+
+<div class="row text-center">
+    <div class="col">
+        <h3>Редактирование пользователя</h3>
+    </div>
+</div>
+
+<div class="validation" asp-validation-summary="All"></div>
+
+<form method="post">
+    <input type="hidden" name="Name" value="@Model?.Name" />
+
+    <div class="row text-center">
+        <div class="col">
+            <div class="col-12">
+                <label asp-for="NewName">Логин:</label>
+                <br>
+                <input type="text" asp-for="NewName" value="@Model?.Name">
+                <span asp-validation-for="NewName"></span>
+            </div>
+            <br>
+            <div class="col-12">
+                <label asp-for="Phone">Телефон:</label>
+                <br>
+                <input type="text" asp-for="Phone" value="@Model?.Phone">
+                <span asp-validation-for="Phone"></span>
+            </div>
+            <br>
+            <div class="col-12">
+                <label asp-for="Email">Почта:</label>
+                <br>
+                <input type="email" asp-for="Email" value="@Model?.Email">
+                <span asp-validation-for="Email"></span>
+            </div>
+            <br>
+            <br>
+            <br>
+            <a>
+                <button class="btn btn-success type="submit" asp-area="Admin" asp-controller="User" asp-action="Edit">Изменить</button>
+            </a>
+        </div>
+    </div>
+</form>
